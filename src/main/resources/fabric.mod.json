@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "bigger-ender-chest",
+	"version": "${version}",
+	"name": "Bigger Ender Chest",
+	"description": "A Fabric mod that expands the capacity of the Ender Chest.",
+	"authors": [
+		"xSaVageAU"
+	],
+	"contact": {
+		"homepage": "https://github.com/xSaVageAU/Bigger-Ender-Chest",
+		"sources": "https://github.com/xSaVageAU/Bigger-Ender-Chest"
+	},
+	"license": "MIT",
+	"icon": "assets/bigger-ender-chest/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"savage.biggerenderchest.BiggerEnderChest"
+		]
+	},
+	"mixins": [
+		"bigger-ender-chest.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
